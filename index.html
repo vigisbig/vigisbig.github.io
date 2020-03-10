@@ -5,76 +5,162 @@ in Visual studio code. The exclamation mark calls emmet-->
 <html lang="en">
 <!-- In head tags, we include meta tags to declare various things. Lang present above
 is an attribute which has been declared to be en, there can be other attributes, 
-like some of them can be seen below -->
-<head> 
-<!-- Meta tags are used mainly in SEO -->
+like some of them can be seen below. Attributes modify the properties of the tags
+or how they behave etc. -->
+
+<head>
+    <!-- Meta tags are used mainly in SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Below is one way in which we can declare keywords for website's SEO. This is so that
+    <!-- Below is one way in which we can declare keywords for website's SEO. This is so that
 if people search these keywords, my page should show up -->
     <meta name="keywords" content="html, news, articles, automotive index">
-<!-- The meta tag below will let the search engines know that my page should be indexed
+    <!-- The meta tag below will let the search engines know that my page should be indexed
 and followed alternatively, we can say NOINDEX and NOFOLLOW in its place-->
     <meta name="robots" content="INDEX, FOLLOW">
-<!-- The below tag for relation can be created in Visual code
+    <!-- The below tag for relation can be created in Visual code
 using link:css and that is the way to add a CSS style sheet reference
 the name of the file can be anything that we wish, in the case below is style.css
 it can be pankajstyles.css etc.-->
     <link rel="stylesheet" href="style.css">
 
-<!-- The following tag is how we include an external Javascript
+    <!-- The following tag is how we include an external Javascript
 this can be called using script:src in visual code 
 pankaj.js is the file that we want to include-->
 
-<script src="pankaj.js"></script>
+    <script src="pankaj.js"></script>
     <title>This is title</title>
 </head>
+
 <body>
 
-<!-- To add <h1></h1> tags in visual code as below simply type h1 and press enter
+    <!-- To add <h1></h1> tags in visual code as below simply type h1 and press enter
 this will add opening and closing h1 tags as below. same goes for Paragraph  tags which
 can be brought in using p and enter -->
 
-<!-- To go to the next line and escape the 
+    <!-- To go to the next line and escape the 
 text that follows the cursor use ctrl+enter -->
 
 
-<!-- There are 6 heading types -->
+    <!-- There are 6 heading types -->
 
-<h1>This is heading one</h1>
-<h2>This is heading two</h2>
-<h3>This is heading one</h3>
-<h4>This is heading one</h4>
-<h5>This is heading one</h5>
-<h6>This is heading one</h6>
+    <h1>This is heading one</h1>
+    <h2>This is heading two</h2>
+    <h3>This is heading one</h3>
+    <h4>This is heading one</h4>
+    <h5>This is heading one</h5>
+    <h6>This is heading one</h6>
 
 
-<!-- We can use toggle view:toggle word wrap in setting>command palette to keep text from going in just one line. Alternatively use ALT+ Z. 
+    <!-- We can use toggle view:toggle word wrap in setting>command palette to keep text from going in just one line. Alternatively use ALT+ Z. 
     
 To add text as below, we can use lorem80 or lorem9000000 followed by enter to add the number of corresponding words as we may need this in testing -->
 
 
-<!-- hr is horizontal rule tag, use to add line as below, the br is break tag and can be used to add break both these tags are selfclosing unlike some of the other tags-->
+    <!-- hr is horizontal rule tag, use to add line as below, the br is break tag and can be used to add break both these tags are selfclosing unlike some of the other tags-->
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur aliquam quaerat sint, ad quasi voluptates minima neque repellat omnis accusamus provident saepe sequi blanditiis doloribus numquam. Delectus, temporibus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia quam ex dicta totam expedita esse. Quaerat nulla beatae, cupiditate asperiores <hr>accusantium commodi, aliquid nihil.<br><br> <strong>Strong can be used to make the text bold.</strong> laudantium at provident animi esse nisi repellendus assumenda aperiam nam quidem ab ea aliquam recusandae vel nostrum adipisci quis! Mollitia obcaecati consequuntur omnis atque at, similique, dolorem nihil, tempora velit <h4><em><br>em stands for emphasis and this tag can therefore be used to add emphasis i.e. to make the text italic and the tag has been nested within h4 to make it really big</em></h4> harum quibusdam nulla in. Facere fuga distinctio, mollitia deleniti cupiditate necessitatibus at. Nisi aut in velit commodi sequi, reiciendis nesciunt voluptatum laudantium. <br>Facere repudiandae vero ducimus ad eligendi ipsa, blanditiis necessitatibus dicta culpa!
-</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur aliquam quaerat sint, ad quasi
+        voluptates minima neque repellat omnis accusamus provident saepe sequi blanditiis doloribus numquam. Delectus,
+        temporibus voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia quam ex dicta
+        totam expedita esse. Quaerat nulla beatae, cupiditate asperiores
+        <hr>accusantium commodi, aliquid nihil.<br><br> <strong>Strong can be used to make the text bold.</strong>
+        laudantium at provident animi esse nisi repellendus assumenda aperiam nam quidem ab ea aliquam recusandae vel
+        nostrum adipisci quis! Mollitia obcaecati consequuntur omnis atque at, similique, dolorem nihil, tempora velit
+        <h4><em><br>em stands for emphasis and this tag can therefore be used to add emphasis i.e. to make the text
+                italic and the tag has been nested within h4 to make it really big</em></h4> harum quibusdam nulla in.
+        Facere fuga distinctio, mollitia deleniti cupiditate necessitatibus at. Nisi aut in velit commodi sequi,
+        reiciendis nesciunt voluptatum laudantium. <br>Facere repudiandae vero ducimus ad eligendi ipsa, blanditiis
+        necessitatibus dicta culpa!
+    </p>
 
-<!-- To add multiple paragraphs, we can use p*4 and press enter, this will add as
+    <!-- To add multiple paragraphs, we can use p*4 and press enter, this will add as
 many paragraphs as the number, The same goes for headings and other tags like h1*3 etc. After
 adding multiple paragraphs and other tags these can be filled quickly by using tab key-->
 
-<p>Now let use see the anchor tag with new tab thingy, if we use the traget attribute like below, it will open in a new window</p>
+    <p>Now let use see the anchor tag with new tab thingy, if we use the traget attribute like below, it will open in a
+        new window</p>
 
-<!-- By using alt with mouse click, we can edit many lines simultaneously -->
+    <!-- By using alt with mouse click, we can edit many lines simultaneously -->
 
-<a href="http://www.google.com" target="_blank">To go to google click here</a><br>
-<a href="http://www.facebook.com" target="_blank">To go to facebook click here</a><br>
-<a href="http://www.linkedin.com" target="_blank">To go to linkedin click here</a><br>
-<a href="http://www.twitter.com" target="_blank">To go to twitter click here</a><br>
+    <a href="http://www.google.com" target="_blank">To go to google click here</a><br>
+    <a href="http://www.facebook.com" target="_blank">To go to facebook click here</a><br>
+    <a href="http://www.linkedin.com" target="_blank">To go to linkedin click here</a><br>
+    <a href="http://www.twitter.com" target="_blank">To go to twitter click here</a><br>
 
-<p>to add internal links use the following</p>
+    <p>to add internal links use the following</p>
 
-<a href="/filename.html" target="_blank">to go to an internal file by the name filename</a>
+    <a href="/filename.html" target="_blank">to go to an internal file by the name filename</a>
+
+    <!-- Image not present, hence alt text shown -->
+    <!-- alt text will be shown if image does not load, below is how you embed images -->
+    <img src="localfilepath or internet image" alt="There should be an image here of a car"><br>
+    <img src="https://source.unsplash.com/random" alt="a random image evertime">
+    <!-- This is how we add width and height if we want to, although we should use css -->
+    <img src="some source" alt="Image should be here" height="20px" width="200px">
+    <p>Some paragraph</p>
+    <ul type="disc">
+        <li>This is first item of my unordered list</li>
+        <li>This is second item of my unordered list</li>
+        <li>This is third item of my unordered list</li>
+    </ul>
+    <ul type="square">
+        <li>This is first item of my unordered list</li>
+        <li>This is second item of my unordered list</li>
+        <li>This is third item of my unordered list</li>
+    </ul>
+    <ul type="circle">
+        <li>This is first item of my unordered list</li>
+        <li>This is second item of my unordered list</li>
+        <li>This is third item of my unordered list</li>
+    </ul>
+    <ol type="i">
+        <li>This is first item of my ordered list</li>
+        <li>This is second item of my ordered list</li>
+        <li>This is third item of my ordered list</li>
+    </ol>
+    <ol type="a">
+        <li>This is another list item</li>
+        <ol>
+            <li>Ordered list which is nested</li>
+            <li>Ordered list which is nested</li>
+            <li>Ordered list which is nested</li>
+            <li>Ordered list which is nested</li>
+        </ol>
+        <li>This is a list item 2</li>
+        <li>This is a list item 3</li>
+    </ol>
+
+    <!-- Tables -->
+    <h3>Tables practise</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Duties</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rohan</td>
+                <td>2892398</td>
+                <td>Electrician</td>
+            </tr>
+            <tr>
+                <td>Brij</td>
+                <td>28f398</td>
+                <td>Elfctrician</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>28398</td>
+                <td>Elan</td>
+            </tr>
+        </tbody>
+
+    </table>
 </body>
-</html>
 
+</html>
