@@ -8,7 +8,7 @@
 <body>
     <h2>Ids and Classes Tutorial</h2>
 
-    <!-- Ids are unique and can only refer to a single element 
+    <!-- Ids are unique to an element and can only refer to that single element 
         while classes can be reused, so ids are very limited in use in that sense-->
 
     <div id="mainbox" class="redbg greenbd">
@@ -17,7 +17,7 @@
    used along with tags to call them. For example, type span.redbg and see
 what happens and type span#redbg and see what happens -->
 
-<!-- This is can be used to call any class or id. For exampl if span required of 
+<!-- This is can be used to call any class or id. For example if span required of 
 some particular class, we will use span.classname and press enter. See examples below.
 the concept can ofcourse be extended to include multiple classes at once like
 div.class1.class2.class3.class4.class5 and enter-->
@@ -25,6 +25,22 @@ div.class1.class2.class3.class4.class5 and enter-->
 <span class="classname"></span>
 <span id="idname"></span>
 <div class="class1 class2 class3 class4 class5"></div>
-    </div>
+    
+<!-- Emmet takes div tag as default i.e. if you use .class1.class2 without a tag and 
+    press enter, it will automatically apply to a div by default -->
+
+    <div class="classn1 classn2 classn3"></div>
+    <div class="class2"></div>
+
+    <!-- Creating multiple elements using emmet use 
+        span.class1.class2.class3.class4*5 + enter to create like below 
+        and tab to enter values afterwards-->
+
+    <span class="class1 class2 class3 class4"></span>
+    <span class="class1 class2 class3 class4"></span>
+    <span class="class1 class2 class3 class4"></span>
+    <span class="class1 class2 class3 class4"></span>
+    <span class="class1 class2 class3 class4"></span>
+
 </body>
 </html>

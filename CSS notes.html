@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS notes</title>
+    
+    <style>
+        p{
+            color: black;
+            background-color: seagreen;
+        }
+    </style>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h2>CSS notes</h2>
+    <p>What does CSS do?</p>
+    <ul style="color: sienna;">
+
+<li>CSS gives style to raw HTML</li>
+<li>CSS stands for cascading style sheets</li>
+<li>CSS is used to gve style to our webpages</li>
+<li>CSS is used to make websites responsive</li>
+<li>HTML is used to structure a website</li>
+<li>CSS takes responsibility of design</li>
+<li>Is used to handle the presentation and make the website mordern looking</li>
+
+    </ul>
+
+    <h2>CSS Syntax</h2>
+
+    <p> p {color: blue;} where p is selector, color is a property and blue is a value.
+        The selector answers the question, for which thing you wish to apply property or where. Color is a property of that thing that you are modifying, Value is basically what you want the specific property to be like.
+
+    </p>
+
+    <h2> CSS Syntax</h2>
+
+    <p>
+        header, p.intro 
+        {
+            background-color:red;
+            border-radius:3px;
+        }
+    
+
+    
+        header and p.intro (i.e. paragraphs with intro class and header) both or these are group of selectors, while what's in the brackets is the declaration block.
+    </p>
+
+    <h2>Ways to add css</h2>
+
+    <p>
+        <ul>
+            <li>Inline CSS (i.e. with individual elements with style attribute. Not recommended at all)</li>
+            <li>Internal CSS (i.e. inside the head tag of HTML in the style tags)</li>
+            <li>External CSS (i.e. CSS kept in a seperate style sheet style.css)
+                <ul>
+                    <li>Make a file.css and add styles</li>
+                    <li>Include that file in the header</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <p style="color: red; background-color:gold;">This is inline CSS style example of a paragraph</p>
+
+    <p>This file is an example of how styles would apply. This document has reference to an external style sheet as well as styles declared in header as well as inline styling.
+
+        A thing to keep in mind is that the style declared afterwards takes precedence over others. i.e an inline style would take precedence over style declared in header or using style sheet. Another thing is that we cna use !important to apply style and this will override any other style no matter what. However this should be avoided.
+    </p>
+</body>
+</html>
