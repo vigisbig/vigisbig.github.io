@@ -7,14 +7,23 @@
     <title>CSS selectors</title>
     <style>
 
-        p{color: red;}
+        .yellowtext{color: yellow;} 
+        /* yellowtext is a class selector*/
+        .bgblue{background-color: blue;}
+        /* bgblue is a class selector */
+        #redbg{background-color: tomato;}
+        /* redbg is an id selector*/
+        span,footer{background-color: black; color: white;}
+        /* Above you can see a grouing selector */
+        p{border:2px solid blue ;}
+        /* Above you can see an element selector */
 
     </style>
 </head>
 
 <body>
     <h1>CSS selectors</h1>
-    <p>
+    <p class="yellowtext bgblue">
         This is a paragraph that contains a list
         <ol>
             <li>CSS selectors are used to find the element whose property will be set.</li>
@@ -34,11 +43,16 @@
     </div>
 
     <h2>CSS selectors demonstration</h2>
-    <p>
+    <p id="redbg" class="yellowtext">
 
         Simple paragraph to demonstrate CSS selectors
-
+        
     </p>
+    <span>This is a span text</span>
+
+    <footer>
+        This is a footer and it let's know that css comments have a different syntax than html.
+    </footer>
 </body>
 
 </html>
