@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="file.php">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="myLastname" id="lastname">
+        </div>
+        <div>
+            <label for="car">Which car are you selecting?</label>
+            <select name="myCar" id="car">
+                <option value="Ind">Indica</option>
+                <option value="San">Santro</option>
+                <option value="Nan">Nano</option>
+                <option value="Alt">Altroz</option>
+            </select>
+        </div>
+        <div>
+            <label for="whom">For whom are you buying?</label>
+            My Daughter<input type="radio" name="myWhom" id="whom" checked>
+            My Son<input type="radio" name="myWhom" id="whom">
+        </div>
+        <div>
+            <label for="address">What's your address?</label>
+            <textarea name="myAddress" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="myPass" id="pass">
+        </div>
+        <div>
+            <label for="date">When are you planning to buy?</label>
+            <input type="date" name="myDate" id="date">
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
