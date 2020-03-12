@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Height, width, borders and backgrounds</title>
+    <style>
+        #borderinfo {
+            background-color: rosybrown;
+            height: 50px;
+            width: 200px;
+            border-color: red;
+            border-width: 2px;
+            border-radius: 3px;
+            border-style: solid;
+        }
+        #anotherborderinfo{
+            height: 40px;
+            width: 150px;
+            border: 2px solid green;
+
+        }
+        #yetanother{
+            height: 60px;
+            width: 500px;
+            border-top-left-radius: 15px;
+            border-right:2px solid green;
+            border-left: 4px solid yellow;
+            border-top: 2px solid red;
+            border-bottom: 4px dotted peru;
+
+        }
+        #ekaurpara{
+            height: 700px;
+            width: 750px;
+            background-image: url('https://www.publicengagement.ac.uk/sites/default/files/styles/content_width/public/hero/large-crowd-of-people-small.jpg?itok=7FX7V2G2');
+            background-repeat: no-repeat;
+            background-position: left, center;
+            border: 2px solid yellow;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Height width borders and backgrounds</h1>
-    <p>This is a paragraph</p>
+    <h1>Border width, type, style given seperately</h1>
+    <p id="borderinfo">This oneway of giving border info</p>
+    <h1>Border in one line</h1>
+    <p id="anotherborderinfo">This is another way of giving border info</p>
+    <h1>Border info like width, color and style provided in one line </h1>
+    <p id=yetanother>This is yet another way where radiuses are different and styles are diff and you can see how they have been applied</p>
+    <h1>Border </h1>
+    <p id=ekaurpara>This is yet another way</p>
     
 </body>
 </html>

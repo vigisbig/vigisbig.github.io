@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: cyan;
+        }
+        .container{
+            padding: 34px 34px;
+            margin:14px 19px 14px 19px;
+            border-radius: 20px;
+            width: 400px;
+            background-color: rgb(154, 170, 241);
+            border: 4px solid rebeccapurple;
+            
+
+            /* padding can be given as top right bottom left also, margin can be given like this, as well as border */
+
+            /* if you wish to give equal in top and bottom, and same in left and right then, we can use the format. padding: ypx xpx; */
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque omnis sapiente placeat sint vero suscipit sed assumenda corrupti tempore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, tempora!</p>
+    </div>
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque omnis sapiente placeat sint vero suscipit sed assumenda corrupti tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptates.</p>
+    </div>
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque omnis sapiente placeat sint vero suscipit sed assumenda corrupti tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laudantium.</p>
+    </div>
+</body>
+</html>
